@@ -1,0 +1,66 @@
+/* Empty. Add your own CSS if you like */
+.pane {
+	background-color:white;
+}
+
+.radio-icon {
+	color: green;
+}
+
+
+
+.qn-wrapper {
+	display:inline;
+}
+.sg50-hide {
+	
+	left:-100%;
+	display:none;
+	opacity:0;
+	transition: all 0.5s;
+}
+
+.sg50-show {
+	left:0;
+	display:block;
+	opacity:1;
+	transition: all 0.5s;
+}
+
+.choices {
+	font-weight:light;
+	color:gray;
+	font-size: 2rem;
+	text-align: center
+}
+.item h2 {
+	font-size:1.5rem;
+	color:steelblue;
+	font-weight: bold
+}
+.card {
+	background-color: black
+}
+.card img {
+	width:80%;
+	padding-left:10%;
+	height:30%;
+	overflow-y:hidden;
+}
+
+.results {
+	text-align: center;
+	margin:0 auto;
+}
+.results h1 {
+	color:orange;
+	font-size:5rem;
+}
+
+.centred {
+	position:relative!important;
+	margin:0 auto;
+}
+
+
+

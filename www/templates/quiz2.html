@@ -1,0 +1,47 @@
+<ion-view view-title="QUIZ 1966">
+ 
+  <ion-content>
+ 
+        <div class="qn-wrapper">
+        
+
+        <div class="list qn-wrapper" ng-repeat="question in quiz1966" id="{{question.qn_no}}" ng-class="{'sg50-show':counter==question.qn_no,'sg50-hide':counter!=question.qn_no}" >
+        <div class="list card">
+        <img ng-src="{{'img/'+ question.image}}">
+        </div>
+            <div class="item item-text-wrap">
+            <h2>{{question.question}}</h2>
+            </div>	
+            
+            <ion-radio ng-repeat="choice in question.choices"
+            ng-value="choice.choice" ng-model="question.myans" name="{{question.qn_no}}" class="choices">
+            {{ choice.description }}
+            </ion-radio>
+            
+            <div class="button-bar">
+            <button class="button button-energized" ng-click="prevQn({{question.qn_no}})" ng-show="question.qn_no!=1">prev</button>
+            <button class="button button-energized" ng-click="nextQn({{question.qn_no}})" ng-show="counter<quiz1966.length">next</button>
+            <button class="button button-calm" ng-click="seeResults(1966)" ng-show="counter==quiz1966.length">See Results</button>
+            </div>
+                <progress value="{{counter}}" max="{{quiz1966.length}}"></progress>
+        </div>
+    
+        </div>
+        <div ng-hide="counter<quiz1966.length+1">
+<div class="item" id="results" >
+    <div class="results">
+    <h2>Your score</h2>
+    <h1 >{{score}}</h1>
+    <p> out of {{quiz1966.length}}</p>
+    
+    </div>
+   
+<div class="centred">
+    <button class="button button-energized centred" ng-click="nextQn(0)" >start again</button>
+    </div>
+     </div>
+    </div>
+
+    
+  </ion-content>
+</ion-view>

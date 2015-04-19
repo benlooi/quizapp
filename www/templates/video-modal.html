@@ -1,0 +1,22 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">Video</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="closeModal()">Close</button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+{{quiz1965}}
+    <ion-list>
+        <div class="card">
+            <ion-item>
+                <div class="video-container">
+                    <iframe ng-src="https://www.youtube.com/embed/{{quiz[0].video}}" frameborder="0" width="560" height="315"></iframe>
+                </div>
+            </ion-item>
+        </div>
+        
+        
+    </ion-list>
+</ion-content>
+</ion-modal-view>

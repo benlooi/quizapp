@@ -1,0 +1,85 @@
+[{
+    "year":"1965",
+     "video":"wyVM1evRxNw",
+    "qns":[
+          { "qn_no":"1",
+            "question":"When did Singapore gain independence?",
+            "choices": [
+                      {"choice":"A",
+                      "description":"1960"},
+                      {"choice":"B",
+                      "description":"1965"},
+                      {"choice":"C",
+                      "description":"1970"}
+                      ],
+              "ans":"B",
+              "image":"sg_cannot.jpg"
+              
+
+            },
+            { "qn_no":"2",
+            "question":"When did Singapore join Malaysia?",
+            "choices": [
+                      {"choice":"A",
+                      "description":"1963"},
+                      {"choice":"B",
+                      "description":"1965"},
+                      {"choice":"C",
+                      "description":"1970"}
+                      ],
+              "ans":"A",
+              "image":"sg_is_out.jpg"
+               
+
+            },
+            { "qn_no":"3",
+            "question":"When did Singapore gain independence?c",
+            "choices": [
+                      {"choice":"A",
+                      "description":"1960c"},
+                      {"choice":"B",
+                      "description":"1965c"},
+                      {"choice":"C",
+                      "description":"1970c"}
+                      ],
+              "ans":"B",
+              "image":"pm_lee_cry.jpg"
+
+
+            }
+            ]
+},
+{
+    "year":"1966",
+     "video":"https://www.youtube.com/embed/wyVM1evRxNw",
+
+    "qns":[
+          { "qn_no":"1",
+            "question":"When did Singapore gain independence?banana ",
+            "choices": [
+                      {"choice":"A",
+                      "description":"1960b"},
+                      {"choice":"B",
+                      "description":"1965b"},
+                      {"choice":"C",
+                      "description":"1970b"}
+                      ],
+              "ans":"B",
+              "image":"pm_lee_cry.jpg"
+            },
+            { "qn_no":"2",
+            "question":"When did Singapore join Malaysia?b",
+            "choices": [
+                      {"choice":"A",
+                      "description":"1963b"},
+                      {"choice":"B",
+                      "description":"1965b"},
+                      {"choice":"C",
+                      "description":"1970b"}
+                      ],
+              "ans":"A",
+              "image":"sg_cannot.jpg"
+            }]
+
+
+}]
